@@ -47,7 +47,7 @@ const Testimonial17 = (props) => {
                       {props.author1Name ?? (
                         <Fragment>
                           <strong className="testimonial17-text26 thq-body-large">
-                            John Doe
+                            Tara
                           </strong>
                         </Fragment>
                       )}
@@ -93,7 +93,7 @@ const Testimonial17 = (props) => {
                       {props.author2Name ?? (
                         <Fragment>
                           <strong className="testimonial17-text29 thq-body-large">
-                            Jane Smith
+                            Sonali
                           </strong>
                         </Fragment>
                       )}
@@ -139,7 +139,7 @@ const Testimonial17 = (props) => {
                       {props.author3Name ?? (
                         <Fragment>
                           <strong className="testimonial17-text27 thq-body-large">
-                            Michael Johnson
+                            John
                           </strong>
                         </Fragment>
                       )}
@@ -185,7 +185,7 @@ const Testimonial17 = (props) => {
                       {props.author4Name ?? (
                         <Fragment>
                           <strong className="testimonial17-text31 thq-body-large">
-                            Sarah Lee
+                            Sarah
                           </strong>
                         </Fragment>
                       )}
@@ -223,7 +223,7 @@ const Testimonial17 = (props) => {
 Testimonial17.defaultProps = {
   author2Position: undefined,
   author1Position: undefined,
-  author3Alt: "Michael Johnson - Freelancer",
+  author3Alt: "Tara - Freelancer",
   author1Name: undefined,
   author1Src:
     "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fGF2YXRhcnxlbnwwfHx8fDE3MTYzODM1NTJ8MA&ixlib=rb-4.0.3&w=200",

@@ -30,7 +30,7 @@
   size:'20px'; 
 }
 .footer4-logo2 {
-  height: 2rem;
+  height: 6rem;
 }
 .footer4-links {
   gap: var(--dl-space-space-twounits);
@@ -62,24 +62,35 @@
 }
 .footer4-text14 {
   display: inline-block;
+  font-size: 20px;
 }
 .footer4-text15 {
   display: inline-block;
+  font-size: 20px;
 }
 .footer4-text16 {
   display: inline-block;
+  font-size: 20px;
 }
 .footer4-text17 {
   display: inline-block;
+  
+
 }
 .footer4-text18 {
   display: inline-block;
+  font-size: 20px;
+
 }
 .footer4-text19 {
   display: inline-block;
+  font-size: 20px;
+  
+
 }
 .footer4-text20 {
   display: inline-block;
+  
 }
 .footer4-text21 {
   fill: var(--dl-color-theme-neutral-dark);

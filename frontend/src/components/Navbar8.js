@@ -17,7 +17,7 @@ const Navbar8 = (props) => {
             <a href={props.link1Url}>
               {props.link1 ?? (
                 <Fragment>
-                  <span className="navbar8-text18 thq-link thq-body-small">
+                  <span className="navbar8-text16 thq-link thq-body-small">
                     Home
                   </span>
                 </Fragment>

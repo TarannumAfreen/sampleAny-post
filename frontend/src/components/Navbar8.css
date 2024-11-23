@@ -6,6 +6,7 @@
   position: sticky;
   justify-content: center;
   background-color: var(--dl-color-theme-neutral-light);
+  font-size: '20px';
 }
 .navbar8-navbar-interactive {
   width: 100%;
@@ -18,14 +19,16 @@
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
+  background-color:gainsboro;
 }
 .navbar8-image1 {
-  height: 3rem;
+  height: 5rem;
 }
 .navbar8-desktop-menu {
   flex: 1;
   display: flex;
   justify-content: space-between;
+  
 }
 .navbar8-links1 {
   gap: var(--dl-space-space-twounits);
@@ -35,6 +38,7 @@
   margin-left: var(--dl-space-space-twounits);
   flex-direction: row;
   justify-content: flex-start;
+  
 }
 .navbar8-link4-dropdown-trigger {
   gap: 4px;
@@ -44,12 +48,14 @@
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
+  
 }
 .navbar8-icon-container1 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
+  font-size: 20px
 }
 .navbar8-container2 {
   display: flex;
@@ -408,17 +414,20 @@
 }
 .navbar8-text14 {
   display: inline-block;
+  font-size: large;
 }
 .navbar8-text15 {
   display: inline-block;
 }
 .navbar8-text16 {
   display: inline-block;
+  
 }
 .navbar8-text17 {
   display: inline-block;
   font-style: normal;
   font-weight: 600;
+  
 }
 .navbar8-text18 {
   display: inline-block;

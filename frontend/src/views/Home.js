@@ -7,7 +7,7 @@ import Hero17 from "../components/Hero17";
 import Features24 from "../components/Features24";
 import CTA26 from "../components/Cta26";
 import Features25 from "../components/Features25";
-import Pricing14 from "../components/Pricing14";
+// import Pricing14 from "../components/Pricing14";
 import Steps2 from "../components/Step2";
 import Testimonial17 from "../components/Testimonial17";
 import Contact10 from "../components/Contact10";
@@ -241,7 +241,7 @@ const Home = (props) => {
           </Fragment>
         }
       ></Features25>
-      <Pricing14
+      {/* <Pricing14
         plan3Price={
           <Fragment>
             <span className="home-text133 thq-heading-3">$29.99/month</span>
@@ -563,7 +563,7 @@ const Home = (props) => {
             <span className="home-text185 thq-body-large">Premium Plan</span>
           </Fragment>
         }
-      ></Pricing14>
+      ></Pricing14> */}
       <Steps2
         step1Description={
           <Fragment>

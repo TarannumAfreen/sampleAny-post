@@ -52,7 +52,8 @@
   position: sticky;
   transform: rotate(2deg);
   margin-bottom: var(--dl-space-space-twounits);
-  background-color: var(--dl-color-theme-accent2);
+  /* background-color: var(--dl-color-theme-accent2); */
+  background-color: gainsboro;
 }
 .steps2-text18 {
   top: var(--dl-space-space-unit);
@@ -81,7 +82,8 @@
   top: 10%;
   position: sticky;
   transform: rotate(2deg);
-  background-color: var(--dl-color-theme-accent2);
+  /* background-color: var(--dl-color-theme-accent2); */
+  background-color: gainsboro;
 }
 .steps2-text24 {
   top: var(--dl-space-space-unit);
