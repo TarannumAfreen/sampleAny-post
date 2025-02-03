@@ -14,46 +14,34 @@ const Navbar8 = (props) => {
         <img alt={props.logoAlt} src={logo} className="navbar8-image1" />
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
           <nav className="navbar8-links1">
-            <a href={props.link1Url}>
-              {props.link1 ?? (
-                <Fragment>
-                  <span className="navbar8-text16 thq-link thq-body-small">
-                    Home
-                  </span>
-                </Fragment>
-              )}
-            </a>
-            <a href={props.link2Url}>
-              {props.link2 ?? (
-                <Fragment>
-                  <span className="navbar8-text16 thq-link thq-body-small">
-                    Post Ad
-                  </span>
-                </Fragment>
-              )}
-            </a>
-            <a href={props.link3Url} target="_blank" rel="noreferrer noopener">
-              {props.link3 ?? (
-                <Fragment>
-                  <span className="navbar8-text24 thq-link thq-body-small">
-                    My Ads
-                  </span>
-                </Fragment>
-              )}
-            </a>
+            <Fragment>
+              <span className="navbar8-text16 thq-link thq-body-small">
+                Home
+              </span>
+            </Fragment>
+
+            <Fragment>
+              <span className="navbar8-text16 thq-link thq-body-small">
+                Post Ad
+              </span>
+            </Fragment>
+
+            <Fragment>
+              <span className="navbar8-text24 thq-link thq-body-small">
+                My Ads
+              </span>
+            </Fragment>
+
             <div
               onClick={() => setLink5DropdownVisible(!link5DropdownVisible)}
               className="navbar8-link4-dropdown-trigger"
             >
-              <span>
-                {props.link4 ?? (
-                  <Fragment>
-                    <span className="navbar8-text21 thq-link thq-body-small">
-                      Sign In
-                    </span>
-                  </Fragment>
-                )}
-              </span>
+              <Fragment>
+                <span className="navbar8-text21 thq-link thq-body-small">
+                  Sign In
+                </span>
+              </Fragment>
+
               <div className="navbar8-icon-container1">
                 {link5DropdownVisible && (
                   <div className="navbar8-container2">
