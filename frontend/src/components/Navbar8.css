@@ -1,4 +1,4 @@
-.navbar8-container1 {
+/* .navbar8-container1 {
   top: 0;
   width: 100%;
   display: flex;
@@ -6,7 +6,8 @@
   position: sticky;
   justify-content: center;
   background-color: var(--dl-color-theme-neutral-light);
-  font-size: '20px';
+  
+  
 }
 .navbar8-navbar-interactive {
   width: 100%;
@@ -20,7 +21,54 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
   background-color:gainsboro;
+} */
+
+
+
+/* Container Style */
+.navbar8-container1 {
+  top: 0;
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+  position: sticky;
+  justify-content: center;
+  background-color: var(--dl-color-theme-neutral-light);
 }
+
+/* Navbar Interactive Style */
+.navbar8-navbar-interactive {
+  width: 100%; /* Ensure it takes the full width */
+  display: flex;
+  z-index: 100;
+  max-width: none; /* Remove max-width to make it full width */
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: space-between;
+  background-color: gainsboro;
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 1024px) {
+  .navbar8-navbar-interactive {
+    padding-left: 0; /* Remove left padding for desktop */
+    padding-right: 0; /* Remove right padding for desktop */
+    max-width: 100%; /* Make the navbar span full width */
+  }
+}
+
+
+
+
+
+
+
+
+
+
 .navbar8-image1 {
   height: 5rem;
 }
@@ -37,8 +85,8 @@
   align-items: center;
   margin-left: var(--dl-space-space-twounits);
   flex-direction: row;
-  justify-content: flex-start;
-  
+  justify-content: center;
+  font-size: 18px;
 }
 .navbar8-link4-dropdown-trigger {
   gap: 4px;
@@ -99,6 +147,14 @@
   display: flex;
   flex-direction: row;
 }
+
+
+
+
+
+
+
+
 .navbar8-action21 {
   display: flex;
   flex-direction: row;
@@ -418,6 +474,7 @@
 }
 .navbar8-text15 {
   display: inline-block;
+  
 }
 .navbar8-text16 {
   display: inline-block;

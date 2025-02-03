@@ -9,6 +9,13 @@
   flex-shrink: 0;
   flex-direction: column;
 }
+.hero17-row-container2 .thq-img-scale {
+  width: 350px !important;
+  height: 350px !important;
+  object-fit: cover !important;
+  aspect-ratio: 1 / 1 !important;
+}
+
 .hero17-column {
   gap: var(--dl-space-space-oneandhalfunits);
   width: auto;
@@ -157,12 +164,12 @@
   display: inline-block;
   text-align: center;
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .hero17-content2 {
     width: 100%;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .hero17-actions {
     width: 100%;
     flex-direction: column;
@@ -172,5 +179,12 @@
   }
   .hero17-button2 {
     width: 100%;
+  }
+  .custom-image-dimensions {
+    width: 150px; /* Set a consistent width */
+    height: 150px; /* Set a consistent height */
+    object-fit: cover; /* Ensures images are scaled and cropped */
+    aspect-ratio: 1 / 1; /* Maintains square dimensions */
+    margin: 5px; /* Adds optional spacing between images */
   }
 }

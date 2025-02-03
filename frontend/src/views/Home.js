@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-
 import { Helmet } from "react-helmet";
 
 import Navbar8 from "../components/Navbar8";
@@ -13,12 +12,14 @@ import Testimonial17 from "../components/Testimonial17";
 import Contact10 from "../components/Contact10";
 import Footer4 from "../components/Footer4";
 import "./Home.css";
+// import Card14 from "../components/Card14";
+import Card from "../components/Card";
 
 const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Novel Scaly Sandpiper</title>
+        <title>Any-post</title>
         <meta property="og:title" content="Novel Scaly Sandpiper" />
       </Helmet>
       <Navbar8
@@ -135,6 +136,8 @@ const Home = (props) => {
           </Fragment>
         }
       ></Hero17>
+      {/* <Card14 /> */}
+      <Card />
       <Features24
         feature3Description={
           <Fragment>

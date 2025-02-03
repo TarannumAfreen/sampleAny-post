@@ -8,7 +8,9 @@
   --dl-size-size-xxlarge: 288px;
   --dl-size-size-maxwidth: 1400px;
   --dl-color-theme-accent1: #FFFFFF;
+  /* --dl-color-theme-accent1: gainsboro; */
   --dl-color-theme-accent2: #F5D1B0;
+  /* --dl-color-theme-accent1: gainsboro; */
   --dl-radius-radius-round: 50%;
   --dl-color-theme-primary1: #BF4408;
   --dl-color-theme-primary2: #E65103;
@@ -31,6 +33,50 @@
   --dl-radius-radius-buttonradius: 24px;
   --dl-space-space-oneandhalfunits: 24px;
 }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.thq-grid-4 {
+  max-width: 100%;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+.thq-animated-group-horizontal {
+  overflow: hidden;
+}
+
+@media (max-width: 479px) {
+  .thq-grid-4 {
+    grid-template-columns: 1fr;
+  }
+}
+.thq-grid-auto-300 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+@media (max-width: 479px) {
+  .thq-grid-4, .thq-grid-3, .thq-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
 .button {
   color: var(--dl-color-theme-neutral-dark);
   display: inline-block;
@@ -188,7 +234,7 @@
   line-height: 1.5;
 }
 .thq-body-small {
-  font-size: 16px;
+  font-size: 20px; 
   font-family: Noto Sans;
   line-height: 1.5;
 }
